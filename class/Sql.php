@@ -20,7 +20,7 @@ class Sql extends PDO {
         /*
         O curso explicou que quando trabalhamos com POO as variáveis ganham recursos
         Por exemplo $conn é um atributo da classe
-        Quando estamos dentro do escopo da classe, para acessar atributos não usamos novamente $conn mas usamos: $this->conn, 
+        Quando estamos dentro do escopo da classe, para acessar atributos não usamos novamente $ mas apenas conn, 
         que já está contido o valor de $conn
         */
         $this->conn = new PDO("mysql:dbname=dbphp7;host=localhost:3306","root","");
